@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: MainCharRig.ma
-//Last modified: Tue, Jan 01, 2019 06:58:36 PM
+//Name: MainCharFinal.ma
+//Last modified: Tue, Jan 01, 2019 06:59:15 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -31475,4 +31475,4 @@ connectAttr "MainCharShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
-// End of MainCharRig.ma
+// End of MainCharFinal.ma
